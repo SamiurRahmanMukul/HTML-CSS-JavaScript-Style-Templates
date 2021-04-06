@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login / Registration From</title>
+
+    <!-- internal css / stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/png"
+    />
+  </head>
+  <body>
+    <div class="hero">
+      <div class="from-box">
+        <!-- buttons box -->
+        <div class="button-box">
+          <div id="btn"></div>
+          <button type="button" class="toggle-button" onclick="myLogIn()">
+            Log In
+          </button>
+          <button type="button" class="toggle-button" onclick="myRegister()">
+            Register
+          </button>
+        </div>
+
+        <!-- social icon buttons -->
+        <div class="social-icons">
+          <img src="./assets/img/google.png" alt="google" />
+          <img src="./assets/img/facebook.png" alt="facebook" />
+          <img src="./assets/img/twitter.png" alt="twitter" />
+        </div>
+
+        <!-- input group -->
+        <!-- login form -->
+        <form id="log-in" class="input-group">
+          <input
+            type="text"
+            class="input-field"
+            placeholder="User email"
+            required
+          />
+          <input
+            type="password"
+            class="input-field"
+            placeholder="User password"
+            required
+          />
+          <input type="checkbox" class="check-box" />
+          <span>Remember password</span>
+          <button type="submit" class="submit-btn">Log In</button>
+        </form>
+
+        <!-- registration form -->
+        <form id="register" class="input-group">
+          <input
+            type="text"
+            class="input-field"
+            placeholder="User name"
+            required
+          />
+          <input
+            type="text"
+            class="input-field"
+            placeholder="User email"
+            required
+          />
+          <input
+            type="password"
+            class="input-field"
+            placeholder="User password"
+            required
+          />
+          <input type="checkbox" class="check-box" />
+          <span>I agree to the terms & conditions</span>
+          <button type="submit" class="submit-btn">Register</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- external js / script -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

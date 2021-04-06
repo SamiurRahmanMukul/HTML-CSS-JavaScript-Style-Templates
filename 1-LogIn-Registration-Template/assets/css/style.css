@@ -1,0 +1,184 @@
+/* browser reset code
+   & universal selectors */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* css variables */
+:root {
+  --transition: all 0.3s linear;
+  --box-shadow: 0px 0 10px 1px #ff6124;
+  --liner-gradient: linear-gradient(to right, #ff105f, #ffad06);
+  --liner-gradient-hover: linear-gradient(to right, #ff105f, #ffad06, #ff105f);
+}
+
+/* style implements */
+.hero {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./../img/background.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+.from-box {
+  width: 380px;
+  height: 480px;
+  position: relative;
+  margin: 6% auto;
+  background: white;
+  padding: 5px;
+  overflow: hidden; /* hidden second form */
+}
+
+/* toggle button */
+.button-box {
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: var(--box-shadow);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.toggle-button {
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+  font-weight: bold;
+}
+#btn {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background: var(--liner-gradient);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+/* social icon buttons */
+.social-icons {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.social-icons img {
+  width: 35px;
+  height: 35px;
+  margin: 0 12px;
+  box-shadow: var(--box-shadow);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  cursor: pointer;
+}
+.social-icons img:hover {
+  width: 38px;
+  height: 38px;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+/* input-group */
+.input-group {
+  top: 180px;
+  width: 280px;
+  position: absolute;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  outline: none;
+  border-bottom: 1px solid #999999;
+  background: transparent;
+}
+.input-field:focus {
+  font-weight: bold;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.submit-btn {
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: var(--liner-gradient);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.submit-btn:hover {
+  font-weight: bold;
+  background: var(--liner-gradient-hover);
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.check-box {
+  margin: 30px 10px 30px 0;
+}
+span {
+  color: black;
+  font-size: 12px;
+  bottom: 65px;
+  position: absolute;
+}
+
+/* form variant */
+#log-in {
+  left: 50px;
+}
+#register {
+  left: 450px;
+}
