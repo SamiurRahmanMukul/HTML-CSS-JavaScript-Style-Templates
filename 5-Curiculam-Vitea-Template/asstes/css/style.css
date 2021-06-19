@@ -1,0 +1,150 @@
+/* empty Set Default Margin & Padding */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* html body */
+body {
+  background-color: #eeeeee;
+  font-family: "Roboto", sans-serif;
+  margin: 10px;
+}
+
+/* default tag Start */
+h1 {
+  font-style: bold;
+  font-family: serif;
+  font-size: 35px;
+  color: blue;
+}
+
+h3 {
+  font-style: normal;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #0080ff;
+  padding: 5px;
+}
+
+h4 {
+  font-style: normal;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #303030;
+  padding: 5px;
+}
+
+p {
+  padding-bottom: 5px;
+}
+
+hr {
+  border: solid black 3px;
+  border-radius: 10px;
+  width: 100%;
+  margin: 15px auto;
+  margin-bottom: none;
+} /* default taj End */
+
+/* my default create class start */
+.div-clear {
+  clear: both;
+}
+
+.link a {
+  float: left;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+}
+
+.link a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.common-hr {
+  border: solid black 1.5px;
+  border-radius: 10px;
+  width: 100%;
+  margin: 15px auto;
+  margin-bottom: none;
+} /* my default create class end */
+
+/* body container add */
+.container {
+  max-width: 1000px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Header start */
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 10%;
+  float: left;
+}
+
+.profile-bio {
+  float: left;
+  padding: 40px 10px;
+}
+
+.profile-contact {
+  float: right;
+  padding: 50px 5px;
+}
+.profile-contact a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.profile-contact a:hover {
+  text-decoration: underline;
+  color: red;
+} /* Header End */
+
+/* main section start */
+/* Section codding Start */
+
+.left-div {
+  width: 40%;
+  float: left;
+}
+
+.right-div {
+  width: 60%;
+  float: left;
+} /* Section codding End */
+/* main section End */
+
+/* footer start */
+.bottom-container {
+  background-color: black;
+  text-align: center;
+  padding: 15px;
+}
+
+.bottom-container a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 10px;
+  text-shadow: blue;
+}
+.bottom-container a:hover {
+  color: red;
+}
+
+.bottom-container p {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+/* footer end */
